@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/news/news",
+    "pages/newsDetail/newsDetail",
+    "pages/proDetail/proDetail"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "巷子深文化茶馆",
+    "navigationBarTextStyle":"white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#4C4D4E",
+    "selectedColor": "#BDA066",
+    "list": [
+        {
+            "text": "首页",
+            "pagePath": "pages/index/index",
+            "iconPath": "/static/images/home.png",
+            "selectedIconPath": "/static/images/home-fill.png"
+        },
+        {
+            "text" : "分类",
+            "pagePath": "pages/classify/classify",
+            "iconPath": "/static/images/all.png",
+            "selectedIconPath": "/static/images/all-fill.png"
+        },
+        {
+            "text" : "新闻",
+            "pagePath": "pages/news/news",
+            "iconPath": "/static/images/news.png",
+            "selectedIconPath": "/static/images/news-fill.png"
+        }
+    ]
+  },
+  "usingComponents": {
+    "xzs-header":"components/xzs-header/xzs-header",
+    "xzs-news-item":"components/xzs-news-item/xzs-news-item",
+    "xzs-footer":"components/xzs-footer/xzs-footer",
+    "xzs-product-item":"components/xzs-product-item/xzs-product-item",
+    "van-button": "@vant/weapp/button/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-loading": "@vant/weapp/loading/index",
+    "van-skeleton": "@vant/weapp/skeleton/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  }
+}

@@ -1,0 +1,15 @@
+<view class="header">
+    <navigator url="/pages/index/index" class="logo">
+        <image src="/static/images/logo.jpg" mode="heightFix" class="pic"></image>
+    </navigator>
+
+    <!-- 搜索
+    <view class="search">
+        <van-icon name="search"/>
+    </view> -->
+
+<view class="search"> 
+    <van-icon name="phone-o" class="vanicon" bindtap="clickPhone"/>   
+  </view>
+
+</view>
